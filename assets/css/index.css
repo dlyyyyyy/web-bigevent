@@ -1,0 +1,57 @@
+.layui-footer{
+    text-align: center;
+    font-size: 12px;
+}
+.iconfont {
+    margin-right: 8px;
+}
+
+.layui-icon{
+    margin-right: 8px;
+    margin-left: 20px;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+.layui-body{
+    overflow: hidden;
+}
+a{
+    transition: none !important;
+}
+/* 强制所有的a链接里面的东西都取消动画效果 */
+.userinfo{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 12px;
+    user-select: none;
+    /* 禁止用户选中内容 */
+}
+.layui-side-scroll .userinfo{
+    border-bottom: 1px solid #282b33;
+    /* 头像和左侧菜单的分割线 */
+}
+.layui-nav-img{
+    width: 40px;
+    height: 40px;
+}
+.text-avatar{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #009688;
+    border-radius: 50%;
+    line-height: 40px;
+    /* line-height=height表示纵向居中 */
+    text-align: center;
+    /* 横向居中 */
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    /* 相对定位使文本头像和图片头像对齐 */
+    top: 4px;
+    margin-right: 10px;
+}
+/* 设置文字样式 */
